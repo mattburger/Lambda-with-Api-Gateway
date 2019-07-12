@@ -14,5 +14,5 @@ Write a lambda warmer for an existing Lambda function.
   - First, create a CloudWatch timer to help keep it alive. Take a screenshot of this for submission.
   - Second, pick one of your existing EC2 instances and set up a cron job to ping the API Gateway version of your Lambda. Commit your cron-linux.config file to a repo to show that this is working.
 
-  - ![The Trigger]()
-  - ![Metrics]()
+  - ![The Trigger](https://github.com/mattburger/Lambda-with-Api-Gateway/blob/master/src/main/resources/trigger.png)
+  - ![Metrics](https://github.com/mattburger/Lambda-with-Api-Gateway/blob/master/src/main/resources/metrics.png)
