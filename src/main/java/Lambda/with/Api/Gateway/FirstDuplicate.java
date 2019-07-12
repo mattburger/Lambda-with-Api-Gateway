@@ -49,4 +49,8 @@ public class FirstDuplicate {
     public String getValue(String key) {
         return hashTable.get(key);
     }
+
+    public void setInput(String input) {
+        this.input = input;
+    }
 }
